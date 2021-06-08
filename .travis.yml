@@ -1,0 +1,25 @@
+languaje: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+node_js:
+  '12'
+git:
+  depth: 3
+script:
+  - yarn test
+notifications:
+  email:
+    recipients:
+      - pcaa3000@gmail.com
+    on_success: always
+    on_failure: always
+deploy:
+  provide: heroku
+  skip-cleanup: true
+  skip-history: true
+  api_key: f0f72ef1-280c-4d8d-be8e-00ccd3554d12
+  app: p4tzi-store-backend
+  on:
+    repo: pcaa3000/platzi-store-backend
