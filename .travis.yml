@@ -19,7 +19,8 @@ deploy:
   provide: heroku
   skip-cleanup: true
   skip-history: true
-  api_key: f0f72ef1-280c-4d8d-be8e-00ccd3554d12
+  api_key: 
+    secure: "dRcatOaH3v0vLGxUmQya0qCv/JUrasZcQa60JfNUj0JNCQlnmpqzoMd0a4PnnbFwq5YFN8OD2f94eiZAQ+FDjw9mOWRgYri9HZj5LoI+d5U1Cix3pADTMfX3o73X4qV9BS7pCfdnjtZw1MITjPxjyeDBCHP1Rmefj0/W/xsi/Fe7pMMNcxzwnQOMHuK++Yve4KmOzjSSp/GQvHHByiTSCF6pHA1SS5uMusRnN0I7lyQDVUs4CeJJ4IjwmtRrNiAWBTvAc29XzwS7nqEZZUp51vFJnWSexHZ3+tbQQvW/KYWyCpDaraM/eMvR2DG/ZX3gwC/Xqw2U3zSaJeB1/vF0xyAxBgxC0VrdC7ZyqOVG7E9/LrRaeHShzU8ZMJlqnrUB1IL7I0f9gI8NMc5hZuH4JjfuOkWgondck31PXn/A5xR4oxkO3lVM18aNtLBjs2bzodWBQtQvMm+EhRtJ8pi1HJ5zp/uWf3Ru/9SVZyNyeZxWX4oK7VjooagpLkzjmGpDtFmiB9llmLmGR+Emnwcyt8ray/4UehjGYPQNjTM90YxSqHfB4LwUAos0SCsCYajSz0viSzfo2FTMpfa2+P80kQ+2fJWmFbCgDjD/UZolOKBIb59g30vnq4D9U7m805Zm9vl8MZDK43D/PdeADJIS/IQNGybNIo7AQNjdGR/FrkQ="
   app: p4tzi-store-backend
   on:
     repo: pcaa3000/platzi-store-backend
